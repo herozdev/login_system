@@ -15,24 +15,29 @@
                     <input type="text" class="form-control" name="username" id="username" placeholder="Enter Username" value="<?= set_value('username'); ?>">
                     <?= form_error('username', '<small class="text-danger pl-3">', '</small>'); ?>
                   </div>
+
                   <div class="form-group">
                     <label>Password</label>
                     <input type="password" class="form-control" name="password1" id="password1" placeholder="Enter Password">
                     <?= form_error('password1', '<small class="text-danger pl-3">', '</small>'); ?>
                   </div>
+
                   <div class="form-group">
                     <label>Repeat Password</label>
                     <input type="password" class="form-control" name="password2" id="password2" placeholder="Repeat Password">
                   </div>
+
                   <div class="form-group">
                     <label>Email</label>
                     <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email Address" value="<?= set_value('email'); ?>">
                     <?= form_error('email', '<small class="text-danger pl-3">', '</small>'); ?>
                   </div>
+
                   <div class="form-group">
                     <label>Full Name</label>
                     <input type="text" class="form-control" name="full_name" id="full_name" placeholder="Enter Full Name" value="<?= set_value('full_name'); ?>">
                   </div>
+                  
                   <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-block">Register</button>
                   </div>
